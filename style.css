@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    align-items: center;
+}
+.navbar_social{
+    height: 50px;
+    width: 100%;
+    background:rgb(234, 196, 196);
+}
+.navbar_social .me{
+    width: 100px;
+    float: left;
+}
+.navbar_social .socialmedia{
+    border: 2px;
+    width: 40px;
+    float: right;
+    margin-left: 40px;
+    padding: 2px;
+    position: relative;
+    transition: width 0.5s;
+}
+.socialmedia:hover{
+    width: 60px;
+}
+.navbar_main a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+.navbar_main a:hover{
+    background-color: rgb(196, 128, 128);
+  }
+.a #animewatched:active .main span{
+    visibility: visible;
+  }
+.main span{
+    visibility: hidden;
+  }
